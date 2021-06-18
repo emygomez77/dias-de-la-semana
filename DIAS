@@ -1,0 +1,38 @@
+#include <iostream>
+#include<conio.h>
+
+using namespace std;
+int main(){
+	int dato;
+	char dia;
+	
+	printf("Digita un numero del 1 al 7: "); 
+	scanf("%i", &dia);
+	//Estructura condicional
+	// (la condicion va en parentesis)
+	if(dato = 1);
+	printf("El dia es: %i\n", &lunes);
+	if(dato = 2);
+	printf("El dia es: %i\n", &martes);
+	if(dato = 3);
+	printf("El dia es: %i\n", &miercoles);
+	if(dato = 4);
+	printf("El dia es: %i\n", &jueves);
+	if(dato = 5);
+	printf("El dia es: %i\n", &viernes);
+	if(dato = 6);
+	printf("El dia es: %i\n", &sabado);
+	if(dato = 7);
+	printf("El dia es: %i\n", &domingo);
+	{
+		printf("El dia es: %i\n", &dia); //En caso que se cumpla la condicion
+	}
+	else{ //else es por sino se cumple la condicion
+		if(dia > 7)
+		{
+			printf("Ingrese un numero valido dato\n");
+		}
+	}
+	getch();
+	return 0;
+}
